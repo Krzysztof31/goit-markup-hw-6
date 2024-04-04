@@ -20,12 +20,14 @@
         <div class="header-elements container">
             <nav class="nav-position">
                  <a class="clear-underline logo logo-position" href="/">Web<span class="span">Studio</span></a>
-                 <a href="" class="menu"></a>
-                 <svg width="" heigh="">
-                    <use href=""></use>
-                 </svg>
-        
-                    <ul class="list link-list-position">
+                 <button type="menu" class="button-menu ">
+                        <svg class="" width="24" height="24"> 
+                            <use href="./images/icons.svg#icon-menu"></use>
+                        </svg>
+                        
+                    </button>
+                 <ul class="list link-list-position">
+                    
                             <li>
                                 <a class="clear-underline link-list link-position studio-link" href="./index.html">Studio</a>
                             </li>
@@ -54,6 +56,59 @@
             </address>
 
           </div>   
+        <div class="mobile-menu">
+            <nav class="nav-mobile">
+                <ul class="nav-list-mobile">
+                    <li>
+                        <a href="./index.html" class="">Studio</a>
+                    </li>
+                    <li><a href="" class="">Portfolio</a></li>
+                    <li><a href="" class="">Contacts</a></li>
+                </ul>
+            </nav>
+            <div>
+                <address class="address-mobile">
+                    <ul class="address-list-mobile">
+                        <li>
+                            <a href="mailto:info@devstudio.com" class="link-mobile">info@devstudio.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+110001111111" class="link-mobile">+11 (000) 111-11-11</a>
+                        </li>
+                    </ul>
+                </address>
+                <ul class="icon-list">
+                    <li class="team-icon-element">
+                        <a href="" class="team-icon-bg">
+                            <svg class="team-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team-icon-element">
+                        <a href="" class="team-icon-bg">
+                            <svg class="team-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team-icon-element">
+                        <a href="" class="team-icon-bg">
+                            <svg class="team-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team-icon-element">
+                        <a href="" class="team-icon-bg">
+                            <svg class="team-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
     </header>
 
@@ -136,7 +191,7 @@
 
                     <ul class="team-list-position">
                         <li class="team-images">
-                             <img src="./images/img6.jpg"
+                             <img srcset="./images/markx1.jpg, ./images/markx2.jpx x2" src="./images/markx1.jpg"
                              width="264" height="260" alt="man in a blue shirt with dark hair and beard">
                                 <div class="team-title-poistion">
                                     <h3 class="team-name">Mark Guerrero</h3>
@@ -448,7 +503,7 @@
     </div>
  </div>
     </Footer> 
-    <!-- <div class="backdrop">
+    <div class="backdrop">
 
         <div class="modal">
             <button type="button" class="closing-button">
@@ -531,7 +586,7 @@
             
        </form>
     </div>
-</div>  -->
+</div> 
     
 </body>
 </html>
